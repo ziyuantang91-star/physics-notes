@@ -1,14 +1,22 @@
+# Local editor and operating-system files
 .DS_Store
-.gitignore
-node_modules
-public
-prof
-tsconfig.tsbuildinfo
-.obsidian
-.quartz-cache
+Thumbs.db
+.obsidian/
+.vscode/
+
+# Private review/staging material must never be published
+work/
 private/
-.replit
-replit.nix
-.quartz/
-quartz/cli/tui/dist/
-.turbo/
+pending-approval/
+review-package/
+revision-*/
+
+# Local credentials and generated files
+.env
+.env.*
+__pycache__/
+*.py[cod]
+*.aux
+*.log
+*.out
+*.toc
